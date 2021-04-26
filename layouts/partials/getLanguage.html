@@ -1,0 +1,7 @@
+{{- $language := "" -}}
+{{- if .IsTranslated  -}}
+  {{- with .Language.Lang -}}
+      {{- $language = . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $language -}}

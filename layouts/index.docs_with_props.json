@@ -1,0 +1,10 @@
+{{- $docs := slice -}}
+
+{{- range (site.GetPage "/" ).Pages }}
+  {{- $doc := dict .File.LogicalName .Params -}}
+  {{- $docs = $docs | append $doc -}}
+{{- end -}}
+
+{{/*-----------------The core getting it all together------------- */}}
+
+{{- $docs | jsonify (dict "prefix" " " "indent" "  ") -}}

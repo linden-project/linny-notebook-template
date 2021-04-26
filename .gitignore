@@ -1,8 +1,2 @@
-/docs/
-/lib/
-/bin/
-/.shards/
-*.dwarf
-coverage
-spec/linny_db_root/wiki/index.md
 tmp
+public

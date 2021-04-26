@@ -1,0 +1,15 @@
+{{- $taxonomies := slice -}}
+
+{{- range $key1, $value1 := .Site.Data -}}
+    {{- if (eq $key1 "L0-CONF-ROOT") -}}
+      {{- range $key2, $value2 := $value1 -}}
+        {{- range $key, $value := $value2 -}}
+          {{- $taxonomies = $taxonomies | append $key -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{/*-----------------The core getting it all together------------- */}}
+
+{{- $taxonomies | jsonify (dict "prefix" " " "indent" "  ") -}}

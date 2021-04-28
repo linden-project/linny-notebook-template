@@ -1,0 +1,15 @@
+{{- with eq .Kind  "taxonomy"}}
+
+{{- printf "%#v" $.Data -}}
+{{- printf "%#v" $.Data.Terms.Alphabetical -}}
+"taxonomy" : "{{- $.Data.Singular -}}",
+{{- end -}}
+
+{{- with eq .Kind  "term"}}
+  {{- $docs := slice -}}
+  {{- range $.Data.Pages -}}
+    {{- $docs = $docs | append .Page.File.LogicalName -}}
+  {{- end -}}
+
+  {{- $docs | jsonify (dict "prefix" "" "indent" "  ") -}}
+{{- end -}}

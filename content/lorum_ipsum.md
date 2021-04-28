@@ -2,6 +2,7 @@
 title: Lorum Ipsum
 customer: Caesar
 archived: false
+projects: Romex
 category: fake
 type: one
 ---

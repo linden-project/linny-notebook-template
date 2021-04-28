@@ -1,17 +1,30 @@
 title: "Hugo as Lindex"
-buildDrafts: true
-buildFuture: true
-buildExpired: true
-disableRSS: true
-disableSitemap: true
-metaDataFormat: "yaml"
+#buildDrafts: true
+#buildFuture: true
+#buildExpired: true
+#disableRSS: true
+#disableSitemap: true
+#metaDataFormat: "yaml"
+#disableKinds: ["RSS", "section", "sitemap", "robotsTXT", "404"]
+
 taxonomies:
-  - project: "projects"
-  - material: "materials"
-  - customer: "customers"
-  - category: "categories"
-  - archived: "archived"
+  project: "projects"
+  material: "materials"
+  customer: "customers"
+  category: "categories"
+
+    #permalinks:
+    #  page: "/:section/:title/"
+
 outputs:
+  page:
+  - json
+  term:
+  - json
+  taxonomyTerm:
+  - json
+  taxonomy:
+  - json
   home:
   - starred
   - docs_with_props
@@ -20,6 +33,7 @@ outputs:
   - docs_tasks_count
   - taxonomies
   - terms_starred
+
 outputFormats:
   starred:
     mediaType: "application/json"

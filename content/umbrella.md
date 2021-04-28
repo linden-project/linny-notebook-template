@@ -1,8 +1,10 @@
 ---
 starred: true
 title: Umbrella
-category: wet prevention object
-project: human health
+categories: wet prevention object
+tag: tagSingular
+tags: tagPlural
+projects: human health
 word: up
 type: two
 material:

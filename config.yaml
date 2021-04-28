@@ -1,13 +1,23 @@
-baseURL: "http://lindex.github.org/"
-languageCode: "en-us"
 title: "Hugo as Lindex"
+buildDrafts: true
+buildFuture: true
+buildExpired: true
+disableRSS: true
+disableSitemap: true
+metaDataFormat: "yaml"
+taxonomies:
+  - project: "projects"
+  - material: "materials"
+  - customer: "customers"
+  - category: "categories"
+  - archived: "archived"
 outputs:
   home:
   - starred
   - docs_with_props
   - docs_with_title
   - indexer_info
-    #  - docs_with_tasks_count
+  - docs_tasks_count
   - taxonomies
   - terms_starred
 outputFormats:
@@ -35,7 +45,7 @@ outputFormats:
     mediaType: "application/json"
     baseName: "_index_terms_starred"
     path: "/"
-  docs_with_tasks_count:
+  docs_tasks_count:
     mediaType: "application/json"
-    baseName: "_index_docs_with_tasks_count"
+    baseName: "_index_docs_tasks_count"
     path: "/"

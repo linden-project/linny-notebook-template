@@ -2,9 +2,10 @@
 title: Lorum Ipsum
 customer: Caesar
 archived: false
-projects: Romex
+projects: Romey
 category: fake
 type: one
+starred: true
 ---
 
 # Adire sparsurus muta numine ut postquam nullo

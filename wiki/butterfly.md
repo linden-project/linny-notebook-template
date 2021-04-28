@@ -2,7 +2,7 @@
 title: butterfly
 category: insects
 customer: The Zoo
-project: Earth
+projects: Earth
 starred: true
 type: two
 integer: 4

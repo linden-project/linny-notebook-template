@@ -5,7 +5,10 @@ title: "Hugo as Lindex"
 #disableRSS: true
 #disableSitemap: true
 #metaDataFormat: "yaml"
-#disableKinds: ["RSS", "section", "sitemap", "robotsTXT", "404"]
+disableKinds: ["RSS", "section", "sitemap", "robotsTXT", "404"]
+
+contentDir: wiki
+dataDir: config
 
 taxonomies:
   project: "projects"

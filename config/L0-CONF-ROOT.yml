@@ -1,27 +1,27 @@
 ---
 index_keys:
-  type:
+  types:
     type: has_many
     top_level: true
     features:
       - sub_index
-  project:
+  projects:
     type: has_many
     top_level: true
     features:
       - sub_index
       - count_tasks
-  material:
+  materials:
     type: has_many_belong_to_many
     top_level: true
     features:
       - sub_index
-  customer:
+  customers:
     type: has_many
     top_level: true
     features:
       - sub_index
-  category:
+  categories:
     type: has_many
     top_level: true
     features:

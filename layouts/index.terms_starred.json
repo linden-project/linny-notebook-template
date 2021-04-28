@@ -1,6 +1,4 @@
-{{- $docs := dict -}}
-
-{{- $taxonomies := dict -}}
+{{- $taxonomies := slice -}}
 
 {{- range $key1, $value1 := .Site.Data -}}
     {{- if ( eq (substr $key1 0 7) "L2-CONF") -}}
@@ -12,7 +10,7 @@
           {{- $tax := index $stringarr2 0 -}}
           {{- $term := index $stringarr2 1 -}}
 
-          {{- $taxonomies = merge $taxonomies (dict "taxonomy" $tax "term" $term) -}}
+          {{- $taxonomies = $taxonomies | append (dict "taxonomy" $tax "term" $term) -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}

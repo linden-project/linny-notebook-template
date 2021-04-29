@@ -1,4 +1,4 @@
-# Lindex, a markdown document database indexer
+# Carl, a linden indexer implemented in Hugo
 
 
 ## Contributors

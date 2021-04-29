@@ -11,11 +11,24 @@ contentDir: wiki
 dataDir: config
 
 taxonomies:
-  project: "projects"
+  project: "project"
   material: "materials"
   customer: "customers"
   category: "categories"
+  type: "type"
+  apps: "apps"
+  contactpersoon: contactpersoon
+  klant: klant
+  machine: machine
+  object: object
+  tbv: tbv
+  onderwerp: onderwerp
+  snelkoppeling: snelkoppeling
+  trefwoord: trefwoord
+  website: website
+  weekfocus: weekfocus
 
+logFile: "/tmp/hugo.log"
     #permalinks:
     #  page: "/:section/:title/"
 

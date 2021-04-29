@@ -1,33 +1,183 @@
 ---
 index_keys:
-  types:
-    type: has_many
-    top_level: true
-    features:
-      - sub_index
-  projects:
+  type:
+    singular: type
+    plural: types
     type: has_many
     top_level: true
     features:
       - sub_index
       - count_tasks
-  materials:
-    type: has_many_belong_to_many
-    top_level: true
+  offerte_status:
+    singular: offerte_status
+    plural: offerte_statussen
+    type: has_many
+    top_level: false
     features:
       - sub_index
-  customers:
+  projects:
+    #singular: project
+    #plural: projecten
     type: has_many
     top_level: true
     features:
       - sub_index
-  categories:
+        #  bookmarks:
+        #    singular: bookmark
+        #    plural: bookmarks
+        #    type: has_many
+        #    top_level: true
+        #    features:
+        #      - sub_index
+  website:
+    singular: website
+    plural: websites
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  apps:
+    singular: app
+    plural: apps
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  deelproject:
+    singular: deelproject
+    plural: deelprojecten
+    type: has_many
+    top_level: false
+    features:
+      - sub_index
+  onderdeel:
+    singular: onderdeel
+    plural: onderdelen
+    type: has_many
+    top_level: false
+    features:
+      - sub_index
+  snelkoppeling:
+    singular: snelkoppeling
+    plural: snelkoppelingen
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  klant:
+    singular: klant
+    plural: klanten
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  onderwerp:
+    singular: onderwerp
+    plural: onderwerpen
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  tex_stack_versie:
+    singular: tex_stack_versie
+    plural: tex_stack_versies
+    type: has_many
+    top_level: false
+    features:
+      - sub_index
+  object:
+    singular: object
+    plural: objecten
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  tbv:
+    singular: tbv
+    plural: tbv
+    type: has_many_belong_to_many
+    top_level: true
+    features:
+      - sub_index
+  aanwezig:
+    singular: aanwezig
+    plural: aanwezig
+    type: has_many_belong_to_many
+    top_level: false
+    features:
+      - sub_index
+  machine:
+    singular: machine
+    plural: machines
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  contactpersoon:
+    singular: contactpersoon
+    plural: contactpersonen
+    type: has_many
+    top_level: true
+    features:
+      - sub_index
+  boek:
+    singular: boek
+    plural: boeken
+    type: has_many
+    top_level: false
+    features:
+      - sub_index
+  component:
+    singular: component
+    plural: componenten
+    type: has_many
+    top_level: false
+    features:
+      - sub_index
+  hoofdstuk:
+    singular: hoofdstuk
+    plural: hoofdstukken
+    type: has_many
+    top_level: false
+    features:
+      - sub_index
+  front_matter:
+    singular: front_matter
+    plural: front_matter
     type: has_many
     top_level: true
     features:
       - sub_index
   archived:
+    singular: archived
+    plural: archiveds
     type: has_many
     top_level: false
     features:
       - sub_index
+  trefwoord:
+    singular: trefwoord
+    plural: trefwoorden
+    type: has_many_belong_to_many
+    top_level: true
+    features:
+      - sub_index
+  document_nummer:
+    singular: document nummer
+    plural: document nummers
+    type: has_many
+    features:
+      - sub_index
+  actie:
+    type: has_many
+    features:
+      - sub_index
+  verkoopkans:
+    type: has_many
+    features:
+      - sub_index
+  weekfocus:
+    type: has_many
+    features:
+      - sub_index
+    top_level: true

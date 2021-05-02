@@ -1,0 +1,13 @@
+---
+title: Note
+infotext: About note
+starred: true
+views:
+  az:
+    sort: az
+  date:
+    sort: date
+  type:
+    group_by: type
+locations:
+  #website: https://www.note.vim

@@ -1,0 +1,37 @@
+---
+
+widgets:
+
+  - title: Starred Documents
+    type: starred_documents
+    hidden: false
+
+  - title: Starred Terms
+    type: starred_terms
+    hidden: false
+
+  - title: Starred Taxanomies
+    type: starred_taxonomies
+
+  - title: All Taxanomies
+    type: all_taxonomies
+
+  - title: Recently Modified Documents
+    type: recently_modified_documents
+    hidden: false
+
+  - hidden: false
+    title: Extra Menu
+    type: menu
+    items:
+      - title: Open 'Tags'
+        execute: call linny_menu#openterm('tags', '')
+      - title: Open 'Tags:Note'
+        execute: call linny_menu#openterm('tags', 'note')
+      - title: Open View 'custom'
+        execute: call linny_menu#openview('custom')
+      - title: Close vim
+        execute: qa
+      - title: Close this menu
+        execute: LinnyMenuClose
+

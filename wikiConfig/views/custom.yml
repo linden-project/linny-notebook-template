@@ -1,0 +1,17 @@
+---
+widgets:
+
+  - custom_menu:
+    title: Custom View
+    type: menu
+    items:
+      - title: Home
+        execute: call linny_menu#openterm('', '')
+
+  - recently_modified_documents:
+    title: Recently Modified Documents
+    type: recently_modified_documents
+    number: 100
+    hidden: false
+
+

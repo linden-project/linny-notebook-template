@@ -1,0 +1,24 @@
+---
+widgets:
+
+  - title: Starred Documents
+    type: starred_documents
+    hidden: false
+
+  - title: Starred Terms
+    type: starred_terms
+    hidden: false
+
+  - title: Starred Taxanomies
+    type: starred_taxonomies
+
+  - hidden: false
+    title: Extra Menu
+    type: menu
+    items:
+      - title: Open 'Tags'
+        execute: call linny_menu#openterm('tags', '')
+      - title: Open 'Tags:Note'
+        execute: call linny_menu#openterm('tags', 'note')
+      - title: Open View 'all'
+        execute: call linny_menu#openview('custom')

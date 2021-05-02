@@ -1,6 +1,5 @@
-tmp
-public
-wiki
-config
+config/private
+resources
 wikiConfigPrivate
 wikiContentPrivate
+wikiIndex

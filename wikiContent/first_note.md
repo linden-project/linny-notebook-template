@@ -1,7 +1,7 @@
 ---
 title: First Note
 tags: note
-categories: notes
+starred: true
 ---
 
 This is my first note!

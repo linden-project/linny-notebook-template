@@ -25,6 +25,7 @@ hugo server \
   --forceSyncStatic \
   --cleanDestinationDir \
   --disableFastRender
+```
 
 ## Contributors
 

@@ -28,6 +28,8 @@ widgets:
         execute: call linny_menu#openterm('tags', '')
       - title: Open 'Tags:Note'
         execute: call linny_menu#openterm('tags', 'note')
+      - title: Open View 'home'
+        execute: call linny_menu#openview('root')
       - title: Open View 'custom'
         execute: call linny_menu#openview('custom')
       - title: Close vim

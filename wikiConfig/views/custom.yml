@@ -7,6 +7,10 @@ widgets:
     items:
       - title: Home
         execute: call linny_menu#openterm('', '')
+      - title: Open 'Tags'
+        execute: call linny_menu#openterm('tags', '')
+      - title: Open 'Tags:Note'
+        execute: call linny_menu#openterm('tags', 'note')
 
   - recently_modified_documents:
     title: Recently Modified Documents

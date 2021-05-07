@@ -2,8 +2,7 @@
 
 {{- range (site.GetPage "/" ).Pages }}
   {{- if .Param "title" -}}
-   {{- $doc := dict .File.LogicalName .Params -}}
-   {{- $docs = merge $docs (dict .File.LogicalName $doc) -}}
+   {{- $docs = merge $docs (dict .File.LogicalName .Params) -}}
   {{- end -}}
 {{- end -}}
 

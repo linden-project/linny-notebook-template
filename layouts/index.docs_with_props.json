@@ -1,8 +1,10 @@
-{{- $docs := slice -}}
+{{- $docs := dict -}}
 
 {{- range (site.GetPage "/" ).Pages }}
-  {{- $doc := dict .File.LogicalName .Params -}}
-  {{- $docs = $docs | append $doc -}}
+  {{- if .Param "title" -}}
+   {{- $doc := dict .File.LogicalName .Params -}}
+   {{- $docs = merge $docs (dict .File.LogicalName $doc) -}}
+  {{- end -}}
 {{- end -}}
 
 {{/*-----------------The core getting it all together------------- */}}

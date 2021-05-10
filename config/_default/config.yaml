@@ -11,7 +11,8 @@ permalinks:
 taxonomies:
   tag: "tags"
   project: "projects"
-  customer: "customers"
+  customer: "customer"
+  type: "type"
 
 outputs:
   page:
@@ -29,6 +30,7 @@ outputs:
   - indexer_info
   - docs_tasks_count
   - taxonomies
+  - taxonomies_starred
   - terms_starred
 
 outputFormats:
@@ -51,6 +53,10 @@ outputFormats:
   taxonomies:
     mediaType: "application/json"
     baseName: "_index_taxonomies"
+    path: "/"
+  taxonomies_starred:
+    mediaType: "application/json"
+    baseName: "_index_taxonomies_starred"
     path: "/"
   terms_starred:
     mediaType: "application/json"

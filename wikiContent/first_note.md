@@ -4,4 +4,5 @@ tags: note
 starred: true
 ---
 
-This is my first note!
+Hi there. This is a quick Linny demo.
+

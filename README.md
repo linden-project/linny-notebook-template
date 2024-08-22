@@ -1,6 +1,13 @@
-# Carl
+# Linny Notes Boilerplate (Hugo Template)
 
-Carl is a Linden Indexer implemented in Hugo.
+This is the Linny Notes Boilerplate. If you want to try out the Linny Plugin in
+Vim or Neovim make a copy on your disk of this boilerplate first. Call it
+anything you want. I saved it as $HOME/secondbrain.
+
+The boilerplate is using Hugo to serve as indexer. It creates json-files which
+the Linny plugin uses to create side menus for navigating through your Notes.
+
+We used to call this setup Call, but this is a bit confusing. Sorry for this.
 
 # Quickstart
 
@@ -8,32 +15,36 @@ Carl is a Linden Indexer implemented in Hugo.
 
 ## Install
 
-To be able to run Carl you need to have installed a recent version of
-[Hugo](https://gohugo.io/). At time of writing this was 0.8.1.
+To be able to run Hugo as indexer you need to have installed a recent version
+of [Hugo](https://gohugo.io/). At time of writing this was 0.123.0.
 
 To install Carl clone this repository to a place on your harddrive.
 
 ```
-git clone https://github.com/linden-project/carl ~/MyLindenWiki
+git clone https://github.com/linden-project/linny-notes-boilerplate ~/MyLinnyNotes
 ```
 
-## Start Carl as daemon
+## Start Hugo as daemon
 
-Run to start Carl as a Linden Indexer execute the following commands.
+To start Hugo as a Linny Indexer execute the following commands.
+
 ```
-cd ~/MyLindenWiki
+cd ~/MyLindenNotes
 hugo server \
-  --renderToDisk \
   --ignoreCache \
   --forceSyncStatic \
   --cleanDestinationDir \
   --disableFastRender
 ```
 
+Or just ./RUNME.sh start
+
 ## NOTE
 
-Sometimes taxonomies or terms or other index files are not modified
+In rare cases taxonomies or terms or other index files are not modified
 automatically. Restart the hugo process to fix this problem.
+
+In the Linny Side Menu press <kbd>SHIFT+R</kbd> to refresh.
 
 ## Contributors
 

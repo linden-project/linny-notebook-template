@@ -19,11 +19,10 @@ outputs:
   - json
   term:
   - json
-  taxonomyTerm:
-  - json
   taxonomy:
   - json
   home:
+  - html
   - starred
   - docs_with_props
   - docs_with_title
@@ -34,6 +33,9 @@ outputs:
   - terms_starred
 
 outputFormats:
+  html:
+    mediaType: text/html
+
   starred:
     mediaType: "application/json"
     baseName: "_index_docs_starred"

@@ -3,3 +3,4 @@ resources
 wikiConfigPrivate
 wikiContentPrivate
 wikiIndex
+.hugo_build.lock

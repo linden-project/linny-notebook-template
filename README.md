@@ -11,7 +11,7 @@ We used to call this setup Call, but this is a bit confusing. Sorry for this.
 
 # Quickstart
 
-[Read the Linny.vim + Carl quick start tutorial](https://linden-project.github.io/posts/tutorial-linny-and-carl/)
+Read the [Linny.vim + Boilerplate quick start tutorial](https://linden-project.github.io/posts/tutorial-linny-and-carl/)
 
 ## Install
 

@@ -1,6 +1,6 @@
 # Linny Notes Boilerplate (Hugo Template)
 
-This is the Linny Notes Boilerplate. If you want to try out the Linny Plugin in
+This is the Linny Notes Boilerplate. If you want to try out the [Linny Plugin](https://github.com/linden-project/linny.vim) in
 Vim or Neovim make a copy on your disk of this boilerplate first. Call it
 anything you want. I saved it as $HOME/secondbrain.
 

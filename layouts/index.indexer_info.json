@@ -5,7 +5,7 @@
   "product_version" "0.0.1"
   "hugo_version" $hugover
   "index_dir" "TODO"
-  "wiki_dir" "TODO"
+  "content_dir" "TODO"
   "config_dir" "TODO"
   | jsonify (dict "prefix" " " "indent" "  ")
 -}}

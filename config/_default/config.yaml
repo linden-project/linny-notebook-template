@@ -1,9 +1,9 @@
 title: "Hugo as Linden Indexer"
 disableKinds: ["RSS", "section", "sitemap", "robotsTXT", "404"]
 
-contentDir: wikiContent
-dataDir: wikiConfig
-publishDir: wikiIndex
+contentDir: content
+dataDir: lindenConfig
+publishDir: lindenIndex
 
 permalinks:
   /: /_documents/:filename/

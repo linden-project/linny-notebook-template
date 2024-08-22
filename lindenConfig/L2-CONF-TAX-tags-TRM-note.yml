@@ -1,0 +1,26 @@
+---
+title: Note
+infotext: "About tag: note"
+
+archive: false
+starred: true
+
+views:
+  az:
+    sort: az
+  date:
+    sort: date
+  type:
+    group_by: type
+
+#mounts:
+  #project docs:
+    #source: /home/john/projects/some-project
+    #exclude:
+      #- README.md
+
+#locations:
+  #website: https://www.note.vim
+
+#frontmatter_template:
+  #project: prj-x

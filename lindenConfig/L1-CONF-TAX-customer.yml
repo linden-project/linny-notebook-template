@@ -1,0 +1,7 @@
+---
+title: Customer
+infotext: About customer
+starred: true
+views:
+  type:
+    group_by: type

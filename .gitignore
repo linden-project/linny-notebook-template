@@ -1,6 +1,4 @@
 config/private
 resources
-wikiConfigPrivate
-wikiContentPrivate
-wikiIndex
+lindenIndex
 .hugo_build.lock

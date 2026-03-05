@@ -13,6 +13,7 @@ taxonomies:
   project: "projects"
   customer: "customer"
   type: "type"
+  subject: "subject"
 
 outputs:
   page:

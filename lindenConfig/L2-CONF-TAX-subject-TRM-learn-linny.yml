@@ -1,9 +1,9 @@
 ---
-title: Note
-infotext: "About tag: note"
+title: Learn linny
+infotext: About learn linny
 
 archive: false
-starred: false
+starred: true
 
 views:
   az:
@@ -20,7 +20,7 @@ views:
       #- README.md
 
 #locations:
-  #website: https://www.note.vim
+  #website: https://www.learn linny.vim
 
 #frontmatter_template:
   #project: prj-x

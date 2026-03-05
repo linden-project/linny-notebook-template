@@ -2,6 +2,3 @@
 title: Subject
 infotext: About subject
 starred: true
-views:
-  type:
-    group_by: type

@@ -2,6 +2,7 @@
 title: "Configure my Notebook"
 crdate: "2026-03-05"
 subject: learn linny
+type: documentation
 ---
 
 ## Configure my first level menu

@@ -1,0 +1,26 @@
+---
+title: Eric
+infotext: About eric
+
+archive: false
+starred: false
+
+views:
+  az:
+    sort: az
+  date:
+    sort: date
+  type:
+    group_by: type
+
+#mounts:
+  #project docs:
+    #source: /home/john/projects/some-project
+    #exclude:
+      #- README.md
+
+#locations:
+  #website: https://www.eric.vim
+
+#frontmatter_template:
+  #project: prj-x

@@ -1,5 +1,5 @@
 ---
-title: "Learn WikiTags"
+title: Learn WikiTags
 crdate: "2026-03-05"
 subject: Learn Linny
 starred: true

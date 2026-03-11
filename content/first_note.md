@@ -2,7 +2,7 @@
 title: First Note
 tags: note
 starred: true
-customer: Eric
+customer: eric
 ---
 
 Hi there.

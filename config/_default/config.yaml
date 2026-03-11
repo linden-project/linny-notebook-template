@@ -5,8 +5,8 @@ contentDir: content
 dataDir: lindenConfig
 publishDir: lindenIndex
 
-permalinks:
-  /: /_documents/:filename/
+#permalinks:
+#  /: /_documents/:filename/
 
 taxonomies:
   tag: "tags"

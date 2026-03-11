@@ -1,5 +1,9 @@
 ---
 widgets:
+  - title: Notebooks
+    type: configured_notebooks
+    hidden: false
+
   - title: Starred Terms
     type: starred_terms
     hidden: false

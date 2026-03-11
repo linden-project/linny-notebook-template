@@ -2,6 +2,10 @@
 
 widgets:
 
+  - title: Notebooks
+    type: configured_notebooks
+    hidden: false
+
   - title: Starred Documents
     type: starred_documents
     hidden: false

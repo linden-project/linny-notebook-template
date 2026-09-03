@@ -2,3 +2,5 @@ config/private
 resources
 lindenIndex
 .hugo_build.lock
+.web-staging
+public

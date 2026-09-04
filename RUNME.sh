@@ -23,6 +23,11 @@ start(){
   echo
 }
 
+make_command "web" "Start the Linny web-view (Hugo + linny-web-theme) on :9999"
+web(){
+  exec ./start-web.sh
+}
+
 ##### PLACE YOUR COMMANDS ABOVE #####
 
 runme

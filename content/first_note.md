@@ -1,6 +1,6 @@
 ---
 title: First Note
-tags: note
+tags: [note]
 starred: true
 customer: eric
 ---
